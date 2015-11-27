@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UmanIT Update URLs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-09 18:08+0100\n"
+"PO-Revision-Date: 2012-11-09 18:11+0100\n"
+"Last-Translator: Vincent Robic <vrobic@umanit.fr>\n"
+"Language-Team: Vincent Robic <vrobic@umanit.fr>\n"
+"Language: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /Users/vrobic/Sites/oowp/wp-content/plugins/umanit-"
+"updateurls\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: updateurls.php:61 updateurls.php:62 updateurls.php:502
+msgid "Update URLs"
+msgstr "Mise à jour des URLs"
+
+#: updateurls.php:120 updateurls.php:221
+msgid "Global options"
+msgstr "Paramètres généraux"
+
+#: updateurls.php:124
+msgid "Content items (posts, pages, custom post types, revisions)"
+msgstr "Objets de contenu (articles, pages, types personnalisés, brouillons)"
+
+#: updateurls.php:128
+msgid "Excerpts"
+msgstr "Extraits"
+
+#: updateurls.php:132
+msgid "Attachments"
+msgstr "Médias"
+
+#: updateurls.php:136
+msgid "GUIDs"
+msgstr "GUIDs"
+
+#: updateurls.php:221
+msgid "Custom fields"
+msgstr "Champs personnalisés"
+
+#: updateurls.php:258
+msgid "Security error"
+msgstr "Erreur de sécurité"
+
+#: updateurls.php:259
+msgid "The request seems to come from an external source."
+msgstr "La requête semble provenir d'une source externe."
+
+#: updateurls.php:290
+msgid "Success"
+msgstr "Succès"
+
+#: updateurls.php:291
+#, php-format
+msgid "The %1$ssiteurl%2$s option has been set to %3$s%4$s%5$s"
+msgstr "L'option %1$ssiteurl%2$s est maintenant définie à %3$s%4$s%5$s"
+
+#: updateurls.php:299
+msgid "Nothing to update"
+msgstr "Rien à mettre à jour"
+
+#: updateurls.php:300
+#, fuzzy, php-format
+msgid "Maybe the %1$ssiteurl%2$s option was already set to %3$s%4$s%5$s"
+msgstr ""
+"Veuillez vous assurer que le paramètre %1$ssiteurl%2$s vaut %3$s%4$s%5$s ou "
+"exécutez cette requête sur la base de données :"
+
+#: updateurls.php:309 updateurls.php:319 updateurls.php:333 updateurls.php:377
+msgid "Error"
+msgstr "Erreur"
+
+#: updateurls.php:309 updateurls.php:319
+msgid "The query was not executed"
+msgstr "La requête n'a pas été exécutée"
+
+#: updateurls.php:310
+msgid "You must check that you know what you're doing"
+msgstr "Vous devez cocher la case \"Je sais ce que je fais\""
+
+#: updateurls.php:320
+#, fuzzy, php-format
+msgid "You have to provide the new %1$ssiteurl%2$s"
+msgstr "Veuillez saisir la nouvelle valeur de  à mettre à jour"
+
+#: updateurls.php:333 updateurls.php:377
+#, php-format
+msgid "Your %1$sURLs%2$s have not been updated."
+msgstr "Vos %1$sURLs%2$s n'ont pas été mises à jour."
+
+#: updateurls.php:334
+msgid "Please select at least one checkbox."
+msgstr "Veuillez choisir au moins une option."
+
+#: updateurls.php:354
+#, php-format
+msgid "Success! Your %1$sURLs%2$s have been updated."
+msgstr "Succès ! Vos %1$sURLs%2$s ont été mises à jour."
+
+#: updateurls.php:366
+#, php-format
+msgid "No %1$sURL%2$s has been found."
+msgstr "Aucune occurence de l'ancienne %1$sURL%2$s n'a été trouvée."
+
+#: updateurls.php:378
+#, php-format
+msgid ""
+"Please enter values for both the old %1$sURL%2$s and the new %1$sURL%2$s."
+msgstr ""
+"Veuillez saisir des valeurs pour les ancienne et nouvelle %1$sURL%2$ss."
+
+#: updateurls.php:389
+#, php-format
+msgid "Update %1$sURLs%2$s"
+msgstr "Mise à jour des %1$sURLs%2$s"
+
+#: updateurls.php:390
+#, php-format
+msgid ""
+"After moving a website, this plugin lets you fix old %1$sURLs%2$s in "
+"content, excerpts, custom fields and options."
+msgstr ""
+"Ce plugin permet de mettre à jour les %1$sURLs%2$s dans les contenus et "
+"options de Wordpress après une migration de domaine."
+
+#: updateurls.php:392
+msgid "Scope"
+msgstr "Champ d'action"
+
+#: updateurls.php:393
+msgid ""
+"Some extensions use custom database tables that are not from the Wordpress "
+"core. Since we can't adapt our code for each of them, it will not be "
+"possible for this plugin to manage them."
+msgstr ""
+"Certaines extensions utilisent des tables personnalisées, qui ne font pas "
+"partie du cœur de Wordpress. Ces extensions ne sont pas prises en charge car "
+"il nous est impossible d'adapter notre plugin à chacune d'entre elles."
+
+#: updateurls.php:395
+msgid "Prerequisites"
+msgstr "Pré-requis"
+
+#: updateurls.php:396
+msgid ""
+"Before moving the website, consider making a backup of the database, just in "
+"case. Then, once the site has been moved, you will need to execute this "
+"query on the database, to access the Wordpress administration panel:"
+msgstr ""
+"Faites une sauvegarde de la base de données avant de migrer le site web. Une "
+"fois la migration effectuée, vous devrez exécuter cette requête sur la base "
+"de données, sans quoi vous ne pourrez plus accéder à l'interface "
+"d'administration de Wordpress :"
+
+#: updateurls.php:403
+msgid ""
+"If you continue, you'll be disconnect and won't be able to access the "
+"Wordpress administration panel"
+msgstr ""
+"Si vous continuez, vous serez déconnecté et ne pourrez plus accéder à "
+"l'interface d'administration de Wordpress"
+
+#: updateurls.php:403
+msgid "Run query"
+msgstr "Exécuter la requête"
+
+#: updateurls.php:404
+msgid "You need to tick the checkbox first"
+msgstr "Vous devez cocher la case \"Je sais ce que je fais\""
+
+#: updateurls.php:406
+msgid "I know what i'm doing"
+msgstr "Je sais ce que je fais"
+
+#: updateurls.php:412
+#, php-format
+msgid "Enter your %1$sURLs%2$s in the fields below"
+msgstr "Saisissez vos %1$sURLs%2$s ci-dessous"
+
+#: updateurls.php:417
+msgid "Old site address"
+msgstr "Ancienne adresse du site"
+
+#: updateurls.php:427
+msgid "New site address"
+msgstr "Nouvelle adresse du site"
+
+#: updateurls.php:436
+#, php-format
+msgid "Choose which %1$sURLs%2$s should be updated"
+msgstr "Veuillez choisir quelles %1$sURLs%2$s mettre à jour"
+
+#: updateurls.php:440 updateurls.php:446
+#, php-format
+msgid "%1$sURLs%2$s to update"
+msgstr "%1$sURLs%2$s à mettre à jour"
+
+#: updateurls.php:452
+msgid "Select all"
+msgstr "Sélectionner tous"
+
+#: updateurls.php:458
+#, php-format
+msgid "%1$sURLs%2$s in page content"
+msgstr "%1$sURLs%2$s dans les articles et pages"
+
+#: updateurls.php:459
+msgid "posts, pages, custom post types, revisions"
+msgstr "articles, pages, types personnalisés, brouillons"
+
+#: updateurls.php:465
+#, php-format
+msgid "%1$sURLs%2$s in excerpts"
+msgstr "%1$sURLs%2$s dans les extraits"
+
+#: updateurls.php:471
+#, php-format
+msgid "%1$sURLs%2$s for attachments"
+msgstr "%1$sURLs%2$s des médias"
+
+#: updateurls.php:472
+msgid "images, documents and other media"
+msgstr "images, documents et autres médias"
+
+#: updateurls.php:478
+#, php-format
+msgid "%1$sURLs%2$s in custom fields and meta boxes"
+msgstr "%1$sURLs%2$s dans les champs personnalisés"
+
+#: updateurls.php:484
+#, php-format
+msgid "%1$sURLs%2$s in global options"
+msgstr "%1$sURLs%2$s dans les paramètres généraux"
+
+#: updateurls.php:490
+msgid "Update all GUIDs"
+msgstr "Mettre à jour tous les GUIDs"
+
+#: updateurls.php:491
+msgid "GUIDs for posts should only be changed on development sites."
+msgstr ""
+"Les GUIDs des posts ne doivent être changés que sur les sites en "
+"développement."
+
+#: updateurls.php:492
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#~ msgid ""
+#~ "Updates all URLs in the database after moving your site from one domain "
+#~ "to another."
+#~ msgstr ""
+#~ "Permet de mettre à jour les URLs dans les contenus et options de "
+#~ "Wordpress après une migration de domaine."
+
+#~ msgid "Please try again."
+#~ msgstr "Veuillez réessayer."
+
+#~ msgid "The new %1$sURL%2$s doesn't match the %3$ssiteurl%4$s option."
+#~ msgstr ""
+#~ "La nouvelle %1$sURL%2$s ne correspond pas à la valeur du paramètre "
+#~ "%3$ssiteurl%4$s."
+
+#~ msgid "this will log you out from the Wordpress administration"
+#~ msgstr "ceci vous déconnectera du back-office de Wordpress"
+
+#~ msgid "Your URLs have not been updated."
+#~ msgstr "Vos URLs n'ont pas été mises à jour."
